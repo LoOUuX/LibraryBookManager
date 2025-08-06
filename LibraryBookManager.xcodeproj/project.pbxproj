@@ -22,9 +22,22 @@
 		7C6D342D2E1E5AC300146DBF /* LibraryBookManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibraryBookManager; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7C02EF5F2E3E0DC500774399 /* Exceptions for "LibraryBookManager" folder in "LibraryBookManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.cpp,
+			);
+			target = 7C6D342C2E1E5AC300146DBF /* LibraryBookManager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7C6D342F2E1E5AC300146DBF /* LibraryBookManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7C02EF5F2E3E0DC500774399 /* Exceptions for "LibraryBookManager" folder in "LibraryBookManager" target */,
+			);
 			path = LibraryBookManager;
 			sourceTree = "<group>";
 		};
